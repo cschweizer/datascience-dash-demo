@@ -4,9 +4,15 @@ Simple Dashboard with Dash 2.6.0 and Python 3.8.1.
 <img width="800px" src="https://miro.medium.com/max/1400/1*mrpRJriKlzNeFLc3vE8xuQ.png">
 
 ## Setup
+Install packages manually
 ```
 pip3 install dash
 pip3 install pandas
+```
+or use 
+```
+
+pip3 install -r requirements.txt
 ```
 
 ## Prepare and Run the App
