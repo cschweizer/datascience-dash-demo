@@ -9,6 +9,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash()
 
+
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ThuwarakeshM/geting-started-with-plottly-dash/main/life_expectancy.csv"
 )
@@ -18,7 +19,7 @@ colors = {"background": "#011833", "text": "#7FDBFF"}
 app.layout = html.Div(
     [
         html.H1(
-            "Dashboard Life expectancy",
+            "Dashboard Life expectancy",  className='title'
         ),
         html.Div(
             [
